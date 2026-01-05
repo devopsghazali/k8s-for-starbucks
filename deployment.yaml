@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: starbucks-react
-          image: 4.204.25.32:5000/devops/starbucks-react:9
+          image: devops/starbucks-react:9
           ports:
             - containerPort: 3000
